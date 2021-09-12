@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+  background-size: 100%;
+}
+
+.timer {
+  display: inline-block;
+  font-family: "Share Tech Mono", monospace;
+  color: #ffffff;
+  text-align: center;
+  color: #daf6ff;
+  text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+
+.field {
+  margin: 10px;
+  display: inline-block;
+}
+
+.value {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
+}
+.label {
+  display: block;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+}
